@@ -7,8 +7,6 @@ spring:
     zipkin:
         base-url: http://${ZIPKIN_HOST:localhost}:9411
 
-
-
 eureka:
     client:
         service-url:
